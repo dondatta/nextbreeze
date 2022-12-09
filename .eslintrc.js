@@ -15,6 +15,7 @@ module.exports = {
     parserOptions: {
         ecmaFeatures: {
             jsx: true,
+            requireConfigFile: false, // <== ADD THIS
         },
         ecmaVersion: 2020,
     },
